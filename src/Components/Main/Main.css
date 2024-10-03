@@ -1,0 +1,78 @@
+.resume {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  justify-items: center;
+  margin: auto;
+  width: 70%;
+  margin-top: 30px;
+  align-items: center;
+  background-color: white;
+  border-radius: 1.5rem;
+  text-align: center;
+  margin-right: 15%;
+}
+
+.resume img {
+  width: 120px;
+  height: 120px;
+  border-radius: 4rem;
+}
+
+.about-me {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 70%;
+}
+
+.resume-p {
+  width: 400px;
+}
+
+.stacks-section {
+  width: 100%;
+  background-color: white;
+  height: fit-content;
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 1.5rem;
+  justify-content: center;
+}
+
+.stacks-section h1 {
+  text-align: center;
+}
+
+.stacks-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.stacks-container div {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.stacks-container ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  height: 40%;
+  width: 70%;
+  text-align: center;
+  align-self: center;
+}
+
+.stacks-container ul li {
+  width: fit-content;
+  text-align: center;
+}
+
+.stacks-h1 {
+  align-self: center;
+}
