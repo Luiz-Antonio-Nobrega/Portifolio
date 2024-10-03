@@ -24,7 +24,7 @@ export default function Header() {
           <div className='nav-bar'>
             <a className='link' href="https://www.linkedin.com/in/luiz-antonio-nóbrega-loureiro/"><FaLinkedin /></a>
             <a className='link' href="https://github.com/Luiz-Antonio-Nobrega"><FaGithub/></a>
-            <a className='link contact-btn' href="/contato">Contato</a>
+            <a className='link contact-btn' href="/Portifolio/Contato">Contato</a>
           </div>
           <a className="about-me-btn" href="#resume"><CiCircleChevDown /></a>
           </header>
