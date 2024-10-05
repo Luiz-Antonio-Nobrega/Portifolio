@@ -2,7 +2,7 @@
     display: flex;
     width: 50vw;
     color: white;
-    background-color: grey;
+    background-color: #313131;
     border-radius: 2rem;
     position: relative;
     text-align: center;
@@ -23,4 +23,21 @@
   color: white;
   width: 30px;
   height: 30px;
+}
+
+.contact-num {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  height: 50px;
+  width: 150px;
+}
+
+.contacts-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  justify-items: center;
+  width: 20%;
 }

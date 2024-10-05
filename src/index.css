@@ -3,7 +3,7 @@ body {
   padding: 0;
   display: flex;
   flex-flow: column nowrap;
-  background-color: rgb(85, 85, 85);
+  background-color: #262626;
   box-sizing: border-box;
   height: 100vh;
   width: 100vw;
