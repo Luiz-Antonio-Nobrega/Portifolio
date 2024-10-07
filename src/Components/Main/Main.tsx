@@ -19,7 +19,6 @@ export default function Main() {
       <>
       <br />
         <main id='resume' className='resume'>
-        <h1>Resume</h1>
         <section id='about-me' className='about-me'>
           <img src="./imgs/selfie.jpeg" alt="uma foto minha" />
           <p className='resume-p'>Olá! Sou um desenvolvedor Fullstack recém-formado pela Trybe.
