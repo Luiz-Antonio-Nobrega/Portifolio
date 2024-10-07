@@ -17,9 +17,8 @@ const backStacks = [
 export default function Main() {
     return (
       <>
-      <div id='resume'></div>
       <br />
-        <main className='resume'>
+        <main id='resume' className='resume'>
         <h1>Resume</h1>
         <section id='about-me' className='about-me'>
           <img src="./imgs/selfie.jpeg" alt="uma foto minha" />

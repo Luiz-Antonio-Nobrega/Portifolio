@@ -22,6 +22,12 @@
     transition: all ease-in-out 0.5s;
 }
 
+@media screen and (max-width: 480px){
+    .contact-btn{
+        width: 30vw;
+    }
+}
+
 .contact-btn:hover {
   background-color: #464646;
   color: white;
@@ -37,29 +43,33 @@
     justify-content: center;
     width: 100vw;
     position: relative;
-    margin: 0;
-    padding: 40px;
+    margin: auto;
+    /* padding: 40px; */
     top: 0;
 }
 
 .header-container h1 {
     color: white;
     font-size: xx-large;
-    margin-right: 7%;
+    margin-top: auto;
 }
 
 .nav-bar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-items: center;
     align-items: center;
-    margin-right: 7%;
-    width: 20%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 30vw;
 }
 
 .about-me-btn {
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: auto;
     transition: all ease-in-out 0.3s;
-    margin-right: 7%;
+    /* margin-right: 7%; */
 }
 
 .about-me-btn svg {

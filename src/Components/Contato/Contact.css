@@ -1,3 +1,13 @@
+.contact-header {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  align-items: center;
+}
+
 .contact-container {
     display: flex;
     width: 50vw;
@@ -39,5 +49,10 @@
   flex-flow: row wrap;
   justify-content: space-between;
   justify-items: center;
-  width: 20%;
+  width: 40%;
+}
+
+.contacts-div a svg {
+  width: 90px;
+  height: 90px;
 }

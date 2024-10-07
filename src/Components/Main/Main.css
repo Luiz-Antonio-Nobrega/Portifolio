@@ -4,13 +4,20 @@
   position: relative;
   justify-items: center;
   margin: auto;
-  width: 70%;
+  width: 70vw;
   margin-top: 30px;
   align-items: center;
   background-color: white;
   border-radius: 1.5rem;
   text-align: center;
-  margin-right: 15%;
+  margin-bottom: 3vh;
+}
+
+@media screen and (max-width: 480px){
+  .resume {
+    font-size: small;
+    width: 90vw;
+  }
 }
 
 .resume img {
@@ -54,6 +61,7 @@
 
 .stacks-container div {
   width: 50%;
+  max-width: 30vw;
   display: flex;
   flex-flow: column wrap;
 }
@@ -62,8 +70,8 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  height: 40%;
-  width: 70%;
+  height: 200px;
+  width: 90%;
   text-align: center;
   align-self: center;
 }
