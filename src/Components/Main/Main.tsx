@@ -17,10 +17,8 @@ const backStacks = [
 export default function Main() {
     return (
       <>
-      <div id='resume'></div>
       <br />
-        <main className='resume'>
-        <h1>Resume</h1>
+        <main id='resume' className='resume'>
         <section id='about-me' className='about-me'>
           <img src="./imgs/selfie.jpeg" alt="uma foto minha" />
           <p className='resume-p'>Olá! Sou um desenvolvedor Fullstack recém-formado pela Trybe.
